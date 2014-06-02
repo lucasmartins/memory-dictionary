@@ -16,16 +16,6 @@ module MemoryDictionary
   require_relative 'memory_dictionary/translator'
   require_relative 'memory_dictionary/version'
 
-  # Returns the config Hash
-  def self.config(root_dir=nil)
-    @config ||= load_config(root_dir)
-  end
-
-  # alias method
-  def logger
-    MemoryDictionary.logger
-  end
-
   # Returns the lib logger object
   def self.logger
     @logger || initialize_logger
