@@ -1,6 +1,4 @@
 rvm:
-  - rbx-2.2.6
-  - 2.0.0-p451
   - 2.1.2
 before_install:
 - gem install bundler
