@@ -7,3 +7,5 @@ before_install:
 - gem install bundler
 services:
   - mongodb
+env:
+  - CODECLIMATE_REPO_TOKEN=af27d02fda3ad85f536f089905b64ad9685d0b27279d849b90b4b1317ac7679d 
