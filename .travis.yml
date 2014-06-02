@@ -2,7 +2,6 @@ rvm:
   - rbx-2.2.6
   - 2.0.0-p451
   - 2.1.2
-  - jruby-20mode
 before_install:
 - gem install bundler
 services:
