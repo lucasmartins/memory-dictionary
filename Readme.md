@@ -21,7 +21,7 @@ Or just add it to your Gemfile
 Use
 ===
 
-...
+Check the [specs](https://github.com/leghoo/memory_dictionary/tree/master/spec)
 
 Docs
 ====
