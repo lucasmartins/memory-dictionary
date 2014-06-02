@@ -1,0 +1,8 @@
+rvm:
+  - rbx-2.2.6
+  - 2.0.0-p353
+  - jruby-20mode
+before_install:
+- gem install bundler
+services:
+  - mongodb
