@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage              = "http://rubygems.org/gems/memory_dictionary"
   s.summary               = "A general purposed memory dictionary for quick and dirty translations."
   s.description           = s.summary
-  s.license               = "LGPL-3.0
+  s.license               = "LGPL-3.0"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
