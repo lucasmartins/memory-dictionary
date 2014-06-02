@@ -1,4 +1,6 @@
-[![Quality](https://codeclimate.com/github/leghoo/memory-dictionary.png)](https://codeclimate.com/github/leghoo/memory-dictionary) [![Coverage](https://codeclimate.com/github/leghoo/memory-dictionary/coverage.png)](https://codeclimate.com/github/leghoo/memory-dictionary)
+[![Quality](https://codeclimate.com/github/leghoo/memory-dictionary.png)](https://codeclimate.com/github/leghoo/memory-dictionary) [![Coverage](https://codeclimate.com/github/lucasmartins/memory-dictionary/coverage.png)](https://codeclimate.com/github/lucasmartins/memory-dictionary) [![Build](https://travis-ci.org/leghoo/memory-dictionary.svg)](https://travis-ci.org/leghoo/memory-dictionary)
+
+
 
 Memory Dictionary
 =================
