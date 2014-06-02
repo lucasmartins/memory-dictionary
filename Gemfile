@@ -18,4 +18,5 @@ group :test do
   gem 'rspec-expectations'
   gem 'database_cleaner'
   gem 'factory_girl', github: 'thoughtbot/factory_girl'
+  gem 'codeclimate-test-reporter', require: nil
 end

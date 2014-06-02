@@ -1,3 +1,6 @@
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
+
 require 'pry'
 require 'pry-nav'
 require 'memory_dictionary'
