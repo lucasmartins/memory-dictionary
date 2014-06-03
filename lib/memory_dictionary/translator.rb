@@ -3,7 +3,7 @@ class MemoryDictionary::Translator
     begin
       @dictionary = MemoryDictionary::Dictionary.find_by(name: dictionary_name)  
     rescue Mongoid::Errors::DocumentNotFound => e
-      MemoryDictionary.logger.warn e
+      MemoryDictionary.logger.debug e
       raise MemoryDictionary::Errors::DictionaryNotFoundException
     end
   end
@@ -13,7 +13,7 @@ class MemoryDictionary::Translator
       word = @dictionary.words.find_by(name: word)
       word.translation
     rescue Mongoid::Errors::DocumentNotFound => e
-      MemoryDictionary.logger.warn e
+      MemoryDictionary.logger.debug e
       raise MemoryDictionary::Errors::WordNotFoundException
     end
   end
