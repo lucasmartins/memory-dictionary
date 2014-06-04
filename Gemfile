@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 gem 'mongoid', github: 'mongoid/mongoid'
 gem 'rubysl', platform: :rbx
 gem 'yajl-ruby', :platforms=>[:rbx,:ruby]
-gem 'dotenv'
+
+gem 'dotenv', :groups => [:development, :test]
 
 group :development do
   gem 'rake'

@@ -1,5 +1,8 @@
-require 'dotenv'
-Dotenv.load
+if File.exists?('.env')
+  require 'dotenv'
+  Dotenv.load
+end
+
 require 'yaml'
 require 'bundler'
 require 'json'

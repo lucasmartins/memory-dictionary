@@ -4,7 +4,7 @@ module MemoryDictionary
     MAJOR = 0
     MINOR = 0
     PATCH = 0
-    ALPHA = '.pre.2' # ex: '.pre.1'
+    ALPHA = '.pre.3' # ex: '.pre.1'
     STRING = "#{MAJOR}.#{MINOR}.#{PATCH}#{ALPHA}"
   end
 end
