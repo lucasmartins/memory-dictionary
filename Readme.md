@@ -48,4 +48,4 @@ This is an opensource project so don't expect premium support, but don't be shy,
 License
 =======
 
-Please see [LICENSE](https://github.com/leghoo/memory_dictionary/blob/master/LICENSE) for licensing details.
+Please see [LICENSE](https://github.com/lucasmartins/memory_dictionary/blob/master/LICENSE) for licensing details.
