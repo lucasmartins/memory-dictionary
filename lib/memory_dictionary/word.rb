@@ -8,4 +8,5 @@ class MemoryDictionary::Word
   validates :name, uniqueness: true
   validates :name, :translation, presence: true
   index({ name: 1 }, { unique: true, name: 'dictionary_words_index' })
+
 end
