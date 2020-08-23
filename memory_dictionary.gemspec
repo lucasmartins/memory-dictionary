@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.name                  = "memory_dictionary"
   s.version               = MemoryDictionary::Version::STRING
   s.platform              = Gem::Platform::RUBY
-  s.required_ruby_version = ">= 2.0.0"
+  s.required_ruby_version = ">= 2.4"
   s.authors               = ["Lucas Martins"]
-  s.email                 = ["lucasmartins@railsnapraia.com"]
+  s.email                 = ["lucas@mineradorx.com"]
   s.homepage              = "http://rubygems.org/gems/memory_dictionary"
   s.summary               = "A general purposed memory dictionary for quick and dirty translations."
   s.description           = s.summary
